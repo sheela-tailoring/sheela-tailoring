@@ -1,1 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<title>Sheela Ladies Styler Stitching</title>
+
+<style>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #fff8fb;
+    color: #4a2635;
+}
+
+header {
+    background: linear-gradient(135deg, #d85b91, #b8860b);
+    color: white;
+    text-align: center;
+    padding: 35px 15px;
+}
+
+header h1 {
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+header p {
+    font-size: 16px;
+}
+
+nav {
+    background: white;
+    padding: 14px;
+    text-align: center;
+    box-shadow: 0 2px 8px #ddd;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+nav a {
+    color: #a33d6c;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 55px 20px;
+}
+
+.hero h2 {
+    color: #b23d70;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.button {
+    display: inline-block;
+    background: #d85b91;
+    color: white;
+    padding: 13px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.button.gold {
+    background: #b8860b;
+}
+
+section {
+    padding: 45px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+section h2 {
+    text-align: center;
+    color: #b23d70;
+    margin-bottom: 25px;
+    font-size: 28px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 15px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 3px 12px #ead7df;
+}
+
+.card h3 {
+    color: #b23d70;
+    margin-bottom: 10px;
+}
+
+.price {
+    color: #b8860b;
+    font-size: 21px;
+    font-weight: bold;
+    margin: 12px 0;
+}
+
+.offer {
+    background: #fff0f6;
+    border: 2px solid #d85b91;
+}
+
+.contact {
+    text-align: center;
+    background: #fff0f6;
+    border-radius: 20px;
+}
+
+footer {
+    background: #4a2635;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+@media(max-width:600px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+        font-size: 14px;
+    }
+
+    .hero h2 {
+        font-size: 26px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🌸 Sheela Ladies Styler Stitching 🌸</h1>
+    <p>Beautiful Blouse Stitching • Sarees • Custom Designs</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#blouse">Blouse Stitching</a>
+    <a href="#sarees">Sarees</a>
+    <a href="#offers">Offers</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="hero" id="home">
+    <h2>Elegant Designs, Perfect Stitching</h2>
+    <p>Customized blouse stitching and beautiful saree collections.</p>
+
+    <a class="button"
+       href="https://wa.me/919182330036?text=Hi%20Sheela%20Ladies%20Styler%20Stitching,%20I%20want%20to%20place%20an%20order."
+       target="_blank">
+       WhatsApp Order
+    </a>
+
+    <a class="button gold" href="#sarees">
+       View Sarees
+    </a>
+</div>
+
+<section id="blouse">
+    <h2>🧵 Blouse Stitching</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Simple Blouse</h3>
+            <p>Neat and elegant stitching</p>
+            <div class="price">₹299</div>
+            <a class="button"
+               href="https://wa.me/919182330036?text=I%20want%20to%20order%20Simple%20Blouse%20Stitching">
+               Order
+            </a>
+        </div>
+
+        <div class="card">
+            <h3>Designer Blouse</h3>
+            <p>Beautiful custom designer stitching</p>
+            <div class="price">₹499</div>
+            <a class="button"
+               href="https://wa.me/919182330036?text=I%20want%20to%20order%20Designer%20Blouse%20Stitching">
+               Order
+            </a>
+        </div>
+
+        <div class="card">
+            <h3>Maggam Blouse</h3>
+            <p>Premium maggam work blouse</p>
+            <div class="price">Contact Us</div>
+            <a class="button"
+               href="https://wa.me/919182330036?text=I%20want%20to%20know%20about%20Maggam%20Blouse">
+               Enquire
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<section id="sarees">
+    <h2>👗 Saree Collection</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Beautiful Saree</h3>
+            <p>New arrival • Elegant design</p>
+            <div class="price">₹999</div>
+            <a class="button"
+               href="https://wa.me/919182330036?text=I%20want%20to%20buy%20the%20₹999%20Saree">
+               Buy Now
+            </a>
+        </div>
+
+        <div class="card">
+            <h3>Designer Saree</h3>
+            <p>Perfect for special occasions</p>
+            <div class="price">₹1,499</div>
+            <a class="button"
+               href="https://wa.me/919182330036?text=I%20want%20to%20buy%20the%20₹1499%20Designer%20Saree">
+               Buy Now
+            </a>
+        </div>
+
+        <div class="card">
+            <h3>New Collection</h3>
+            <p>Latest saree collection</p>
+            <div class="price">₹1,999</div>
+            <a class="button"
+               href="https://wa.me/919182330036?text=I%20want%20to%20know%20about%20the%20New%20Saree%20Collection">
+               Enquire
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<section id="offers">
+    <h2>🎁 Special Offers</h2>
+
+    <div class="cards">
+
+        <div class="card offer">
+            <h3>Blouse Stitching Offer</h3>
+            <p>Special prices available on selected blouse designs.</p>
+            <div class="price">Contact Us</div>
+            <a class="button"
+               href="https://wa.me/919182330036?text=Hi,%20I%20want%20to%20know%20about%20your%20current%20offers.">
+               Get Offer
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact">
+    <div class="contact">
+        <h2>📞 Contact Us</h2>
+
+        <p><strong>Sheela Ladies Styler Stitching</strong></p>
+        <p>For blouse stitching, sarees and custom orders</p>
+
+        <br>
+
+        <p><strong>PhonePe:</strong> 9182330036</p>
+
+        <br>
+
+        <a class="button"
+           href="https://wa.me/919182330036"
+           target="_blank">
+           💬 WhatsApp Us
+        </a>
+
+        <a class="button gold"
+           href="tel:+919182330036">
+           📞 Call Now
+        </a>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Sheela Ladies Styler Stitching</p>
+    <p>Tailoring • Blouse Stitching • Sarees</p>
+</footer>
+
+</body>
+</html>
